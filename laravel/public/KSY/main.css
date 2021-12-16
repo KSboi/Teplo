@@ -1,0 +1,38 @@
+
+   TOC:
+   a. General Styles
+   b. Intro Section
+   c. About Section
+   d. Middle
+   e. Footer
+  
+===================================================================== */
+container {
+  position: relative;
+ width: 100%;
+ padding-bottom: 40%;
+ overflow: hidden;
+}
+/* ------------------------------------------------------------------ */
+/* a. General Styles
+/* ------------------------------------------------------------------ */
+
+body { background: #0f0f0f; }
+
+
+/* ------------------------------------------------------------------ */
+/* b. Intro Styles
+/* ------------------------------------------------------------------ */
+
+#main {
+   position: relative;
+   padding-bottom: 100px;   
+   min-height: 800px;
+   width: 100%;
+   background: #161415 url(/img/bg.jpg) no-repeat center center;
+   background-size: cover !important;
+	-webkit-background-size: cover !important;   
+   font-family: Courier New;
+
+}
+

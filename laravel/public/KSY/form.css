@@ -1,0 +1,88 @@
+* {
+   box-sizing: border-box;
+}
+body {
+   background: #f69a73;
+}
+.decor {
+   position: relative;
+   max-width: 600px;
+   margin: 20px auto 0;
+   background: white;
+   border-radius: 30px;
+}
+.form-inner {
+   padding: 50px;
+}
+.form-inner input, .form-inner textarea {
+   display: block;
+   width: 100%;
+   padding: 0 20px;
+   margin-bottom: 10px;
+   background: #E9EFF6;
+   line-height: 40px;
+   border-width: 0;
+   border-radius: 20px;
+   font-family: 'Roboto', sans-serif;
+}
+.form-inner input[type="submit"] {
+   margin-top: 30px;
+   background: #dbd1ae;
+   border-bottom: 4px solid #c5dde6;
+   color: black;
+   font-size: 14px;
+}
+.form-inner textarea {
+   resize: none;
+}
+.form-inner h3 {
+   margin-top: 0;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 500;
+   font-size: 24px;
+   color: black;
+}
+#lolo {
+   margin: 5px 0 0px;
+   padding: 10px 0 5px;
+   position: relative;
+   padding-bottom: 20px; 
+  padding-left: 50px;   
+   min-height: 80px;
+   width: 100%;
+   background: #ccceda;
+	font-family: Courier New;
+
+}
+#lolo h1 {
+	font: 60px/1.2em 'montserrat-bold', sans-serif;	
+	font-family: Courier New;
+	color: #0f0f0f;
+	margin-bottom: 2px;	
+	padding: 0 1%;
+}
+#lolo1 {
+   margin: 5px 0 0px;
+   padding: 10px 0 5px;
+   position: relative;
+   padding-bottom: 20px; 
+  padding-left: 50px;   
+   min-height: 80px;
+   width: 100%;
+   background: #dbd1ae;
+	font-family: Courier New;
+
+}
+#lolo1 h1 {
+	font: 60px/1.2em 'montserrat-bold', sans-serif;	
+	font-family: Courier New;
+	color: #0f0f0f;
+	margin-bottom: 2px;	
+	padding: 0 1%;
+}
+#main h1 {
+	font: 62px/1.2em 'montserrat-bold', sans-serif;	
+	font-family: Courier New;
+	color: #0f0f0f;
+	margin-bottom: 50px;	
+	padding: 0 10%;

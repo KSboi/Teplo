@@ -1,0 +1,80 @@
+.topmenu {
+  list-style: none;
+  margin: 10px 0 0px;
+  padding: 40px 0 5px;
+  text-align: center;
+
+}
+.topmenu li {display: inline-block;}
+.topmenu li:after {
+  content: "|";
+  color: #606060;
+  display: inline-block;
+  vertical-align:top;
+}
+.topmenu li:last-child:after {content: none;}
+.topmenu a {
+  text-decoration: none;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  letter-spacing: 2px;
+  position: relative;
+  padding-bottom: 20px;
+  margin: 0 34px 0 30px;
+  font-size: 17px;
+  text-transform: uppercase;
+  display: inline-block;
+  transition: color .2s;
+}
+.topmenu a, .topmenu a:visited {color: #000000;}
+.topmenu a.current, .topmenu a:hover{color: #D5B45B;}
+.topmenu a:before,
+.topmenu a:after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  top: auto;
+  right: 50%;
+  bottom: -5px;
+  left: 50%;
+  background: #D5B45B;
+  transition: .8s;
+}
+.topmenu a:hover:before, .topmenu .current:before {left: 0;}
+.topmenu a:hover:after, .topmenu .current:after {right: 0;}   
+@media (max-width: 550px) {
+.topmenu {padding-top: 0;}
+.topmenu li {display: block;}
+.topmenu li:after {content: none;}
+.topmenu a {
+  padding: 25px 0 20px; 
+  margin: 0 30px;
+}
+}
+===========================================================
+#contact .contacts {
+	background: #1F1F1F;   
+	padding-top: 48px;
+   padding-bottom: 18px;   
+}
+#contact .contact-details {
+	max-width: 900px;	
+	text-align: center;
+}
+#contact .contacts .row .columns {	width: 33.33333%; }
+#contact .contacts .row .end { float: left; }
+#contact .contacts h1 {
+   font: 14px/24px 'montserrat-bold', sans-serif;
+   color: #fff;
+   text-transform: uppercase;
+   letter-spacing: 1.5px;   
+   margin-bottom: 6px;
+}
+#contact .contacts p {	
+   line-height: 30px;
+   font-family: 'montserrat-regular', sans-serif;
+   font-size: 14px;
+   color: #6C6C6C;
+}
+#contact .contacts h1 i {	margin-right: 8px; }
+
+
